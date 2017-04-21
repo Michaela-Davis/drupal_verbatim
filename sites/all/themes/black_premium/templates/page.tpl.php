@@ -81,7 +81,7 @@
         </div>
       </hgroup>
       <nav id="main-navigation" role="navigation">
-          <?php 
+          <?php
             if (module_exists('i18n')) {
               $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
             } else {
@@ -92,7 +92,7 @@
       </nav><!-- end main-menu -->
     </div>
   </header>
-  
+
   <?php if ($is_front): ?>
   <?php if (theme_get_setting('slideshow_display', 'black_premium')): ?>
     <!-- Slides -->
@@ -111,13 +111,13 @@
   </div>
   <?php endif; ?>
   <?php endif; ?>
-  
-  
+
+
   <div id="page-container_wrap_bg">
     <div id="page-container" class="clearfix">
      <div id="breadcrumbs"><?php if (theme_get_setting('breadcrumbs', 'black_premium')): ?><?php if ($breadcrumb): print $breadcrumb; endif;?><?php endif; ?></div>
       <?php print render($page['header']); ?>
-      
+
       <?php if ($page['sidebar_first']): ?>
         <aside id="sidebar-first" role="complementary" class="sidebar clearfix">
           <?php print render($page['sidebar_first']); ?>
@@ -146,13 +146,13 @@
 
     </div>
   </div>
-  
+
   <?php if ($page['footer']): ?>
   <div id="footer_wrap">
     <div id="footer"><?php print render($page['footer']) ?></div>
   </div>
   <?php endif; ?>
-  
+
   <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
     <div id="bottom_wrap">
      <div id="bottom_placeholder"  class="clearfix">
@@ -168,9 +168,9 @@
      </div>
     </div>
   <?php endif; ?>
-  
+
   <div id="copyright">
-   <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>. | <?php print t('Theme by'); ?>  <a href="http://www.devsaran.com">Devsaran</a>
+   <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print "Michaela Davis" ?>
   </div>
   <!--END footer -->
 </div>
