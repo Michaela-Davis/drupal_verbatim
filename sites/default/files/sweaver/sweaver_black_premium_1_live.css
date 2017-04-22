@@ -1,0 +1,26 @@
+.region #block-block-1 {
+  text-align: center;
+  background-color: #008080;
+  font-weight: bold;
+  font-style: normal;
+  border-bottom-width: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 26px;
+  color: #faf7fa;
+}
+
+#block-block-1 h2 {
+  padding-top: 15px;
+  color: #bababa;
+}
+
+a img {
+  padding-bottom: 15px;
+  border-right-width: 0px;
+  padding-right: 5px;
+}
+
