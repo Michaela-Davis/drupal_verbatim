@@ -176,7 +176,7 @@ body {
 }
 
 a {
-  color: #019cff;
+  color: #008080;
   text-decoration: none;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -218,7 +218,7 @@ h1 {
 }
 
 h1 a {
-  color: #019cff;
+  color: #008080;
   text-decoration: none;
 }
 
@@ -238,7 +238,7 @@ h2 {
 }
 
 h2 a {
-  color: #019cff;
+  color: #008080;
   text-decoration: none;
 }
 
@@ -257,7 +257,7 @@ h3 {
 }
 
 h3 a {
-  color: #019cff;
+  color: #008080;
   text-decoration: none;
 }
 
@@ -348,17 +348,17 @@ hr {
   font-size: 2.8em;
   line-height: 0.9em;
   letter-spacing: -0.03em;
-  color: #019cff;
+  color: #008080;
 }
 
 #sitename h2 a {
   text-decoration: none;
-  color: #019cff;
+  color: #008080;
 }
 
 #sitename h2 a:hover {
   text-decoration: none;
-  color: #019cff;
+  color: #fff;
 }
 
 #sitename .site-slogan{
@@ -406,7 +406,7 @@ hr {
 #main-navigation li a.active, #main-navigation li a.active-trail {
   color: #fff;
   text-decoration: none;
-  background-color: #019cff;
+  background-color: #008080;
 }
 
 
@@ -496,7 +496,7 @@ hr {
   text-decoration: none;
 }
 #breadcrumbs a:hover {
-  color: #019CFF;
+  color: #008080;
   text-decoration: underline;
 }
 
@@ -799,7 +799,7 @@ body.sidebar-second #sidebar-second {
 /***************/
 
 li a.active {
-  color: #019cff;
+  color: #008080;
 }
 
 li a.active:hover {
@@ -828,7 +828,7 @@ li a.active:hover {
   font-size: 12.5px;
   text-decoration: none;
   color: #ffffff;
-  background-color: #019cff;
+  background-color: #008080;
   padding: 4px;
   padding-left: 12px;
   padding-right: 12px;
@@ -897,7 +897,7 @@ li a.active:hover {
 .form-submit {
   -moz-transition: all 0.2s ease-in-out 0s;
   cursor: pointer;
-  background: none repeat scroll 0 0 #019CFF;
+  background: none repeat scroll 0 0 #008080;
   border: 1px solid #888;
   color: #fff;
   padding: 4px 6px;
@@ -1028,7 +1028,7 @@ ul.secondary a.active {
   font-size: 12.5px;
   text-decoration: none;
   color: #ffffff;
-  background-color: #019cff;
+  background-color: #008080;
   padding: 3px;
   padding-left: 9px;
   padding-right: 9px;
