@@ -1,6 +1,13 @@
 /* www.devsaran.com */
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold);
+.region #block-block-1 {
+  border-radius: 3px;
+  font-family: 'Architects Daughter', cursive;
+  letter-spacing: 0.04em;
+  font-weight: bolder;
+  height: 100px;
+  font-size: 90%;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -18,9 +25,10 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  outline:0;
+  outline: 0;
   font-size: 100%;
   font-family: 'Architects Daughter', cursive;
+  letter-spacing: 0.03em;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -195,7 +203,7 @@ img {
 }
 
 em, i {
-  font-style: italic;
+  font-style: bold;
 }
 
 strong, b {
@@ -204,9 +212,13 @@ strong, b {
 
 
 p {
-  line-height:1.6em;
-  margin:8px 0;
+  line-height: 1.6em;
+  margin: 8px 0;
+  font-size: -0.5em;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
 }
+
 
 h1 {
   font-family: 'Architects Daughter', cursive;
@@ -347,7 +359,7 @@ hr {
   font-family: 'Architects Daughter', cursive; font-weight: 700;
   font-size: 2.8em;
   line-height: 0.9em;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.09em;
   color: #008080;
 }
 
@@ -364,7 +376,7 @@ hr {
 #sitename .site-slogan{
   font-family: 'Architects Daughter', cursive; font-weight: 400;
   font-size: 0.40em;
-  letter-spacing: 0;
+  letter-spacing: 0.03em;
   color: #999999;
   padding-left: 2px;
 }
@@ -407,6 +419,7 @@ hr {
   color: #fff;
   text-decoration: none;
   background-color: #008080;
+  border-radius: 3px;
 }
 
 
@@ -529,6 +542,7 @@ hr {
   display: block;
   width:900px;
   height:400px;
+  border-radius: 3px;
 }
 
 #slides .next,
@@ -1034,6 +1048,7 @@ ul.secondary a.active {
   padding-right: 9px;
   text-shadow: 1px 1px #333;
   border-radius: 3px;
+  letter-spacing: 0.03em;
 }
 
 .field-name-field-tags a:hover{
@@ -1164,6 +1179,7 @@ h3.comment-title a{
 #forum .submitted {
   font-size: 12px;
   font-family: 'Architects Daughter', cursive;
+  letter-spacing: 0.03em;
   background: transparent;
   padding: 0;
 }

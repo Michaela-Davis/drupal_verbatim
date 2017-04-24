@@ -24,3 +24,11 @@ a img {
   padding-right: 5px;
 }
 
+.field-item p {
+  font-size: 20px;
+}
+
+.field .field-label {
+  color: #008080;
+}
+
